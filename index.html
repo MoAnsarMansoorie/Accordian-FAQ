@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordian</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="accordian">
+        <h1 class="heading">iNeuron FAQ</h1>
+        <div class="contentbox">
+            <div class="question"><h2>Who are you?</h2></div>
+            <div class="answer">
+                <h3>"We enable upscaling careers through flexible, interactive and collaborative learning. We believe in building learning communities by bringing together mentors, young minds, and creators.",
+                </h3>
+            </div>
+        </div>
+
+
+        <div class="contentbox">
+            <div class="question"><h2>What do we do?</h2></div>
+            <div class="answer">
+                <h3>"Building learning communities with Our Affordable & Competent Courses",
+                </h3>
+            </div>
+        </div>
+
+
+        <div class="contentbox">
+            <div class="question"><h2>Are the community class is boring?</h2></div>
+            <div class="answer">
+                <h3>"Building learning communities with Our Affordable & Competent Courses",
+                </h3>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="./script.js"></script> -->
+    <script>
+        const accordian = document.getElementsByClassName("contentbox");
+
+        for (i = 0; i<accordian.length; i++) {
+            accordian[i].addEventListener('click', function(){
+                this.classList.toggle('active')
+            })
+        }
+    </script>
+</body>
+</html>
