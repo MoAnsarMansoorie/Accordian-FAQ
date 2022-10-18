@@ -4,7 +4,7 @@
 
 ![badge](https://img.shields.io/badge/Project%20FSJS-Accordian%20FAQ-yellow)
 
-[Link of live project for view]()
+[Link of live project for view](https://accordianfaq.netlify.app/)
 
 ![View page](./completedPage.png)
 
