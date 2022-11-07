@@ -30,7 +30,7 @@ body{
     padding: 10px;
     background: #2694af;
     color: #fff;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .accordian .contentbox .question::before{
